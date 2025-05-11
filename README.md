@@ -19,12 +19,18 @@ Converted files are saved in a subfolder called `mp3s`, and any failed conversio
    - From: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)  
    - Place `ffmpeg.exe` in the same folder as this project.
 
-2. **Run the app**  
-   - If using source code:  
+2. **(Optional) Install Dependencies** (for running `main.py`)
+   - If you're using the Python source code (not the `.exe`), install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Run the app**
+   - If using source code:
      ```
      python main.py
      ```
-   - If using the compiled `.exe`:  
+   - If using the compiled `.exe`:
      Just double-click `ConvertTomp3.exe`
 
 ---
@@ -32,19 +38,12 @@ Converted files are saved in a subfolder called `mp3s`, and any failed conversio
 ## 📝 How to Use
 
 1. Launch the program
-2. You'll see instructions in the terminal
-3. When prompted, select the folder that contains your `.opus` or `.m4a` files
+2. Follow the command-line instructions
+3. Select the folder that contains your `.opus` or `.m4a` files
 4. The app will:
    - Convert each file to `.mp3`
    - Save them to `mp3s/`
-   - Log errors in `conversion_errors.txt` if any occur
-
----
-
-## 🚫 Notes
-
-- Do **not** upload `ffmpeg.exe` directly to this repository (see [FFmpeg license](https://ffmpeg.org/legal.html))
-- For compiled binaries, consider distributing via [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+   - Log any failed conversions in `conversion_errors.txt`
 
 ---
 
