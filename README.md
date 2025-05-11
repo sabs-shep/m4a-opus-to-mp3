@@ -19,13 +19,7 @@ Converted files are saved in a subfolder called `mp3s`, and any failed conversio
    - From: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)  
    - Place `ffmpeg.exe` in the same folder as this project.
 
-2. **(Optional) Install Dependencies** (for running `main.py`)
-   - If you're using the Python source code (not the `.exe`), install dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-3. **Run the app**
+2. **Run the app**
    - If using source code:
      ```
      python main.py
@@ -44,6 +38,12 @@ Converted files are saved in a subfolder called `mp3s`, and any failed conversio
    - Convert each file to `.mp3`
    - Save them to `mp3s/`
    - Log any failed conversions in `conversion_errors.txt`
+
+---
+
+# 📥 Download the Latest Release
+
+You can download the latest version of the app from the [Releases Page](https://github.com/sabs-shep/m4a-opus-to-mp3/releases).
 
 ---
 
